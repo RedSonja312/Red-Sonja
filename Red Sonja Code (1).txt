@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+
+int main(){
+    
+    int age = 18;
+    
+    printf("I'm Red Sonja Leyte, age of %d, Years old.\n", age)
+    
+    returnn 0;
+}
