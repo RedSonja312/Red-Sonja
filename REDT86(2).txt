@@ -1,0 +1,16 @@
+#include <studio.h> 
+main (){
+    int Var1, Var2, result;
+    //revolutions
+    printf("enter a first number:3000");
+    scanf("%d" , &Var1);
+    //seconds 
+    printf("enter a second  number: 60");
+    scanf("%d", &Var2);
+    //Degreespersecond 
+    int result = 18,000 
+    printf("%d", result);
+    
+    return 0;
+    
+}
