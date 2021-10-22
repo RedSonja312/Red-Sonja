@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main(){
+     int tmp;
+    
+    printf("input days temperature: "); 
+    scanf("%d",&tmp);
+    if (tmp>0)
+        printf("freezing weather. \n");
+    else if (tmp>10)
+        printf("freezing weather. \n"); 
+    else if (tmp>20)
+         printf("cold weather. \n");
+    else if(tmp>30)
+          printf("Normal temperature. \n");
+    else if(tmp>40)
+          printf("Hot temperature.  \n");
+    else if(tmp>=40)
+          printf("Very hot temperature.\n");
+}
+
